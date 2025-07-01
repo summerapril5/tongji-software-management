@@ -1,0 +1,11 @@
+server:
+  port: 8085
+fts:
+  db:
+    database: fts-settle
+    host: 172.25.197.196
+    pw: SQLPASSWORD
+  swagger:
+    title: WiseInvest清算服务接口文档
+    description: WiseInvest清算服务接口文档
+    package: com.seme.wiseinvest.controller

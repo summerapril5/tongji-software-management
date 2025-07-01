@@ -1,0 +1,10 @@
+server:
+  port: 8088
+fts:
+  swagger:
+    title: WiseInvest智能客服服务接口文档
+    description: WiseInvest智能客服服务接口文档
+    package: com.seme.wiseinvest.controller
+chatbot:
+  api:
+    url: http://localhost:8000/api/chat

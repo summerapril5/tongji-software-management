@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "@types/vue-router": "^2.0.0"
+  }
+}

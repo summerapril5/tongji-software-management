@@ -1,0 +1,6 @@
+product_id,product_name,risk_level,product_type,product_status
+1,基金D,1,基金型,1
+2,基金A,2,基金型,1
+3,基金D,5,基金型,1
+4,基金D,4,基金型,1
+5,基金E,3,基金型,1

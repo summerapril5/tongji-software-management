@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chatbot-service" />
+        <module name="common" />
+        <module name="settle-service" />
+        <module name="product-service" />
+        <module name="transaction-service" />
+        <module name="api" />
+        <module name="account-service" />
+        <module name="gateway" />
+        <module name="recommendation-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-service" options="-parameters" />
+      <module name="api" options="-parameters" />
+      <module name="chatbot-service" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="product-service" options="-parameters" />
+      <module name="recommendation-service" options="-parameters" />
+      <module name="settle-service" options="-parameters" />
+      <module name="transaction-service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+server:
+  port: 8086
+fts:
+  db:
+    database: fts-transaction
+    host: 172.25.197.196
+    pw: SQLPASSWORD
+  swagger:
+    title: WiseInvest交易服务接口文档
+    description: WiseInvest交易服务接口文档
+    package: com.seme.wiseinvest.transaction.controller

@@ -1,0 +1,11 @@
+server:
+  port: 8083
+fts:
+  db:
+    database: fts-product
+    host: 172.25.197.196
+    pw: SQLPASSWORD
+  swagger:
+    title: WiseInvest产品服务接口文档
+    description: WiseInvest产品服务接口文档
+    package: com.seme.wiseinvest.controller
